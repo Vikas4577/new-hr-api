@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Git-Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'crds', url: 'https://github.com/benoynsreedhar/hr-api'
+                git branch: 'main', credentialsId: 'crd', url: 'https://github.com/Vikas4577/new-hr-api'
              }
         }
         stage('Maven-Build') {
